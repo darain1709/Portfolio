@@ -25,7 +25,7 @@ header {
 header.sticky {
     background: #fff;
     padding: 20px 100px;
-    box-shadow: 0 5px 20px #491734;
+    box-shadow: 0 5px 20px #313532;
 }
 
 header .logo {
@@ -60,7 +60,7 @@ header ul li a {
 }
 
 header.sticky ul li a {
-    color: #491734;
+    color: #313532;
 }
 
 section {
@@ -70,7 +70,7 @@ section {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: #491734;
+    background: #313532;
     background-size: cover;
     background-position: right;
     display: flex;
@@ -98,7 +98,7 @@ section {
 
 .btn {
     position: relative;
-    background: #d499a9;
+    background: #435748;
     opacity: 0.9;
     display: inline-block;
     color: #fff;
@@ -112,8 +112,7 @@ section {
 }
 
 .btn:hover {
-    background: #dfd4d7;
-    color: #d499a9;
+    background: #3a4e3f;
 }
 
 .content {
@@ -125,7 +124,7 @@ section {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
-    color: #491734;
+    color: #313532;
 
 }
 
@@ -169,7 +168,7 @@ image {
 }
 
 .services {
-    background: #491734;
+    background: #313532;
 }
 
 .services .content {
@@ -182,7 +181,7 @@ image {
 .services .content .servicesBx
 {
   padding: 20px 20px;
-  background: #491734;
+  background: #313532;
   color: #fff;
   max-width: 340px;
   margin: 20px;
