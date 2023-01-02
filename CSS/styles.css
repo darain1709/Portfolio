@@ -112,7 +112,7 @@ section {
 }
 
 .btn:hover {
-    background: #3a4e3f;
+    background: #fff;
 }
 
 .content {
@@ -160,15 +160,8 @@ image {
     height: auto;
   }
 
-.imgIM {
-    float: right;
-    border-radius: 50%;
-    width: 450px;
-    height: auto;
-}
-
 .services {
-    background: #313532;
+    background: #313532;              
 }
 
 .services .content {
@@ -178,29 +171,104 @@ image {
     flex-direction: row;
 }
 
-.services .content .servicesBx
-{
-  padding: 20px 20px;
-  background: #313532;
-  color: #fff;
-  max-width: 340px;
-  margin: 20px;
-  text-align: center;
-  transition: 0.5s;
+#skills-h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
 }
 
-.services .content .servicesBx:hover {
-  background: rgba(255,0,0,0.1);;
+.icon {
+    font-size: 40px;
+    color: #fff;
 }
 
-.services .content .servicesBx img {
-  max-width: 80px;
-}
-.services .content .servicesBx h2 {
-  font-size: 20px;
-  font-weight: 600;
-}
-.icon .fa {
-color: #fff;
+
+
+.contact {
+    background : #313532;
 }
 
+#connect-h2 {
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+
+
+.formBx {
+    min-width: 60%;
+  }
+  .formBx form {
+    display: flex;
+    flex-direction: column;
+  }
+  .formBx form h3,
+  .contactInfo h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .formBx form input,
+  .formBx form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #222;
+    resize: none;
+    color: #fff;
+  }
+  .formBx form input::placeholder,
+  .formBx form textarea::placeholder {
+    color: #999;
+  }
+  .formBx form textarea {
+    min-height: 200px;
+  }
+  .formBx form input[type="submit"] {
+    max-width: 100px;
+    background: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .contactInfo {
+    min-width: 40%;
+  }
+  .contactInfoBx {
+    position: relative;
+  }
+  .contactInfoBx .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+  }
+  .contactInfoBx .box .icon {
+    min-width: 40px;
+    padding-top: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+  }
+  .contactInfoBx .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+  }
+  .contactInfoBx .box .text h3 {
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .contactInfoBx .box .text p {
+    font-weight: 300;
+    color: #fff;
+  }
