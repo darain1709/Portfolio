@@ -44,6 +44,7 @@ header.sticky .logo {
 header ul {
     position: relative;
     display: flex;
+    justify-content: flex-end;
 }
 
 header ul li {
@@ -70,7 +71,7 @@ section {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: #313532;
+    background: #83214c;
     background-size: cover;
     background-position: right;
     display: flex;
@@ -96,9 +97,9 @@ section {
     font-weight: 700;
 }
 
-.btn {
+.button-about-me {
     position: relative;
-    background: #435748;
+    background: #83214c;
     opacity: 0.9;
     display: inline-block;
     color: #fff;
@@ -111,8 +112,10 @@ section {
     font-weight: 500;
 }
 
-.btn:hover {
+.button-about-me:hover {
     background: #fff;
+    color: #83214c;
+    text-decoration: none;
 }
 
 .content {
@@ -124,7 +127,7 @@ section {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
-    color: #313532;
+    color: #83214c;
 
 }
 
@@ -161,7 +164,7 @@ image {
   }
 
 .services {
-    background: #313532;              
+    background: #83214c;              
 }
 
 .services .content {
@@ -185,7 +188,7 @@ image {
 /* Last section */
 
 .contact {
-  background-color: #313532;
+  background-color: #83214c;
 }
 
 
@@ -256,19 +259,14 @@ image {
 
 
 /* 
-
 .contact {
     background : #313532;
 }
-
 #connect-h2 {
     color: #fff;
     font-size: 30px;
     padding-bottom: 40px;
 }
-
-
-
 .formBx {
     min-width: 60%;
   }
