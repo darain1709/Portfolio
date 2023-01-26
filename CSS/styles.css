@@ -99,6 +99,7 @@ section {
 
 .button-about-me {
     position: relative;
+    border: 1px solid #fff;
     background: #83214c;
     opacity: 0.9;
     display: inline-block;
@@ -114,6 +115,7 @@ section {
 
 .button-about-me:hover {
     background: #fff;
+    border : 1px solid #000;
     color: #83214c;
     text-decoration: none;
 }
@@ -161,6 +163,7 @@ image {
     display: block;
     max-width: 80%;
     height: auto;
+    border-radius: 10%;
   }
 
 .services {
