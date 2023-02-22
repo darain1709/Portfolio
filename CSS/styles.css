@@ -259,7 +259,13 @@ image {
   padding: 0 0 20px;
 }
 
+.fa {
+  color: #fff;
+}
 
+.fa:hover {
+  color: #000;
+}
 
 /* 
 .contact {
