@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
+@media screen and (max-width: 884px) {
+  
+  .textBx {
+    margin: auto;
+    color: black;
+  }
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -87,15 +97,23 @@ section {
 }
 
 .banner h2 span {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 700;
 }
 
 .banner h3 {
+    margin-top: 5%;
     color: #fff;
     font-size: 1.5em;
     font-weight: 700;
+    text-align: center;
 }
+
+.textBx {
+  margin: auto;
+  text-align: center;
+}
+
 
 .button-about-me {
     position: relative;
@@ -249,6 +267,7 @@ image {
 
   display: flex;
   flex-direction: column;
+  line-height: 2;
 }
 
 .form-contact form h3 {
@@ -265,6 +284,22 @@ image {
 
 .fa:hover {
   color: #000;
+}
+
+.form-contact form input,
+  .form-contact form textarea {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: white;
+    resize: none;
+    color: #000;
+}
+
+.form-contact form textarea {
+  height: 150px;
 }
 
 /* 
