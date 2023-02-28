@@ -1,4 +1,7 @@
-
+* {
+    margin: 0 ;
+    padding: 0 ;
+}
 body {
     background-color: #83214c;
     color: #fff;
@@ -11,6 +14,7 @@ body {
 header {
     position: fixed;
     z-index: 999;
+    margin-top: 5vh ;
 }
 
 .navbar {
@@ -33,6 +37,10 @@ header {
     margin-left: auto;
     padding: 20px 30px 20px;
 
+}
+
+.nav2 h3 {
+    font-weight: 500;
 }
 
 .nav2 ul {
@@ -80,7 +88,7 @@ header {
 }
 
 .mainText h3 {
-    margin-top: 1vh;
+    margin-top: 4vh;
     color: #fff;
     font-size: 1.5em;
     font-weight: 700;
@@ -93,7 +101,7 @@ header {
     opacity: 0.9;
     display: inline-block;
     color: #fff;
-    margin-top: 1vh;
+    margin-top: 4vh;
     margin-left: 23vw ;
     padding: 10px 30px;
     font-size: 18px;
@@ -108,4 +116,52 @@ header {
     border : 1px solid #000;
     color: #83214c;
     text-decoration: none;
+}
+
+
+
+    /* About section  */
+
+#aboutme {
+    background-color: #fff ;
+    color: #83214c ;
+    height: 100vh ;
+}
+
+.heading h2 {
+    padding-top: 7vh ;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 5vh ;
+}    
+
+.about-content {
+    width: 90vw ;
+    height: 80vh;
+    margin-left: 5vw ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    max-width: 40%;
+    min-height: 70%;
+    color: #000; 
+}
+
+.about-text h3 {
+    font-size: 1.5rem;
+    padding-bottom: 2.5rem ;
+}
+.about-text p {
+    margin-bottom: 1rem;
+}
+
+.yash-img {
+    display: block;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10%;
 }
