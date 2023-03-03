@@ -15,7 +15,10 @@ body {
 header {
     position: fixed;
     z-index: 999;
-    margin-top: 5vh ;
+    margin-bottom: 5vh ;
+    background-color: white;
+    color: #000 ;
+    border-bottom: 2px solid #000;
 }
 
 .navbar {
@@ -23,6 +26,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100vw ;
+    height: 6% ;
 }
 
 .nav1 {
@@ -31,13 +35,14 @@ header {
 
 .nav1 h1 {
     text-transform: uppercase;
+    margin-top: 5px;
 }
 
 .nav2 {
     width: 40vw ; 
-    margin-left: auto;
     padding: 20px 30px 20px;
     margin-right: 6vw ;
+    margin-top: 9px;
 }   
 
 .nav2 h3 {
@@ -55,7 +60,8 @@ header {
 
 .nav2 ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
+    font-size: 18px;
 }
 
 
