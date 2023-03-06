@@ -176,7 +176,7 @@ header {
     /* About section  */
 
 #aboutme {
-    background-color: #fff ;
+    background-color: #a8dadc ;
     color: #1d3557 ;
     height: 120vh ;
 }
@@ -248,8 +248,12 @@ header {
 
 #projects {
     height: 30vh;
-    background-color: #fff;
-    color: #3a5a40 ;
+    background-color: #a8dadc;
+    color: #000 ;
+}
+
+.pro-div {
+    text-align: center;
 }
 
 
@@ -344,6 +348,7 @@ header {
     text-align: center;
     padding: 0 0 20px;
   }
+  
 
 
 .form-contact form input,
