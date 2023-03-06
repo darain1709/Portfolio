@@ -1,3 +1,34 @@
+
+
+@media (min-width: 375px) and (max-width: 667px) {
+
+
+    .yash-img {
+        width: 50px;
+    }
+    
+
+    .about-content {
+        width: 90vw ;
+        
+    }
+    
+    .about-text {
+        max-width: 80vw;
+        /* min-height: 70%; */
+        color: #000; 
+    }
+    
+    .about-text h3 {
+        font-size: 1.5rem;
+        padding-bottom: 2.5rem ;
+    }
+    .about-text p {
+        margin-bottom: 1rem;
+    }
+}
+
+
 * {
     margin: 0 ;
     padding: 0 ;
@@ -70,12 +101,26 @@ header {
 
 #home {
     height: 100vh ;
+    width: 100vw ;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
+
+
+.back-img-div {
+    background-color: transparent;
+}
+
+
+.random-img {
+    width: 450px;
+    margin-top: 200px;
+}
+
+
 
 .mainText {
     width: 60vw ;
@@ -124,6 +169,8 @@ header {
     color: #83214c;
     text-decoration: none;
 }
+
+
 
 
 
