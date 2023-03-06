@@ -35,7 +35,7 @@
     scroll-behavior: smooth;
 }
 body {
-    background-color: #83214c;
+    background-color: #457b9d;
     color: #fff;
     font-family: "Poppins", sans-serif;
 }
@@ -47,8 +47,8 @@ header {
     position: fixed;
     z-index: 999;
     margin-bottom: 5vh ;
-    background-color: white;
-    color: #000 ;
+    background-color: #a8dadc;
+    color: #1d3557;
     border-bottom: 2px solid #000;
 }
 
@@ -91,7 +91,7 @@ header {
 
 .nav2 ul li a {
     text-decoration: none;
-    color: #000;
+    color: #1d3557;
     font-size: 18px;
 }
 
@@ -129,7 +129,7 @@ header {
 .mainText h2 {
     text-align: center;
     font-size: 3rem;
-    color: #fff;
+    color: #1d3557;
     font-weight: 500;
     line-height: 1.5em;
 }
@@ -141,18 +141,18 @@ header {
 
 .mainText h3 {
     margin-top: 4vh;
-    color: #fff;
+    color: #1d3557;
     font-size: 1.5em;
     font-weight: 700;
     text-align: center;
 }
 
 .btn-aboutme {
-    border: 1px solid #fff;
-    background: #83214c;
+    background: #a8dadc;
     opacity: 0.9;
     display: inline-block;
-    color: #fff;
+    color: #1d3557;
+    border : 1px solid #000;
     margin-top: 4vh;
     margin-left: 23vw ;
     padding: 10px 30px;
@@ -164,9 +164,8 @@ header {
 }
 
 .btn-aboutme:hover {
-    background: #fff;
-    border : 1px solid #000;
-    color: #83214c;
+    color: #1d3557;
+    border: 1px solid #1d3557;
     text-decoration: none;
 }
 
@@ -178,7 +177,7 @@ header {
 
 #aboutme {
     background-color: #fff ;
-    color: #83214c ;
+    color: #1d3557 ;
     height: 120vh ;
 }
 
@@ -186,6 +185,7 @@ header {
     padding-top: 12vh ;
     text-align: center;
     font-size: 2rem;
+    color: #1d3557;
     padding-bottom: 7vh ;
 }    
 
@@ -206,11 +206,13 @@ header {
 }
 
 .about-text h3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding-bottom: 2.5rem ;
+    color: #1d3557;
 }
 .about-text p {
     margin-bottom: 1rem;
+    font-size: 1.25rem;
 }
 
 .yash-img {
@@ -247,7 +249,7 @@ header {
 #projects {
     height: 30vh;
     background-color: #fff;
-    color: #83214c ;
+    color: #3a5a40 ;
 }
 
 
@@ -255,6 +257,10 @@ header {
 
 #contactme {
     height: 100vh ;
+}
+
+#contactme h2 {
+    margin-top: 70px;
 }
 
 .div-connect {
@@ -266,7 +272,7 @@ header {
 }
 
 .h3-contact {
-    color: #fff;
+    color: #1d3557;
   font-size: 30px;
   font-weight: 500;
   margin-left: 60px;
@@ -302,7 +308,7 @@ header {
   .socials .box .text h3 {
     font-weight: 600;
     font-size: 1.8rem;
-    color: #fff;
+    color: #a8dadc;
     margin-bottom: 2px;
   }
   .socials .box .text p {
@@ -316,7 +322,7 @@ header {
   }
   
   .fa:hover {
-    color: #000;
+    color: #1d3557;
   }
 
 
@@ -332,7 +338,7 @@ header {
   }
   
   .form-contact form h3 {
-    color: #fff;
+    color: #1d3557;
     font-size: 30px;
     font-weight: 500;
     text-align: center;
@@ -349,7 +355,7 @@ header {
   outline: none;
   background: white;
   resize: none;
-  color: #000;
+  color: #1d3557;
 }
 
 .form-contact form textarea {
