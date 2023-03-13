@@ -47,9 +47,11 @@ header {
     position: fixed;
     z-index: 999;
     margin-bottom: 5vh ;
-    background-color: #a8dadc;
+    /* background-image: linear-gradient(to right , #AEBAF8 , #9600FF); */
+    background-image: linear-gradient(to right , #FFCBFF, #C1D2DC);
+
     color: #1d3557;
-    border-bottom: 2px solid #000;
+    /* border-bottom: 2px solid #000; */
 }
 
 .navbar {
@@ -100,13 +102,13 @@ header {
 
 
 #home {
+    background-image: linear-gradient(to right , #FFCBFF, #C1D2DC);
     height: 100vh ;
     width: 100vw ;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 
@@ -116,8 +118,9 @@ header {
 
 
 .random-img {
-    width: 450px;
-    margin-top: 200px;
+    height: 500px;
+    background-color: #FFFAF1;
+    border-radius: 10%;
 }
 
 
@@ -129,7 +132,7 @@ header {
 .mainText h2 {
     text-align: center;
     font-size: 3rem;
-    color: #1d3557;
+    color: #FFFAF1;
     font-weight: 500;
     line-height: 1.5em;
 }
@@ -137,18 +140,19 @@ header {
 .mainText h2 span {
     font-size: 2em;
     font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .mainText h3 {
     margin-top: 4vh;
-    color: #1d3557;
+    color: #FFFAF1;
     font-size: 1.5em;
     font-weight: 700;
     text-align: center;
 }
 
 .btn-aboutme {
-    background: #a8dadc;
+    background: transparent;
     opacity: 0.9;
     display: inline-block;
     color: #1d3557;
@@ -163,11 +167,11 @@ header {
     font-weight: 500;
 }
 
-.btn-aboutme:hover {
+/* .btn-aboutme:hover {
     color: #1d3557;
     border: 1px solid #1d3557;
     text-decoration: none;
-}
+} */
 
 
 
