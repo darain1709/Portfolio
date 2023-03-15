@@ -35,7 +35,9 @@
     scroll-behavior: smooth;
 }
 body {
-    background-color: #457b9d;
+    /* background-color: #457b9d; */
+    background-image: linear-gradient(to right , #FFCBFF, #C1D2DC);
+
     color: #fff;
     font-family: "Poppins", sans-serif;
 }
@@ -51,7 +53,7 @@ header {
     background-image: linear-gradient(to right , #FFCBFF, #C1D2DC);
 
     color: #1d3557;
-    /* border-bottom: 2px solid #000; */
+    border-bottom: 2px solid #000;
 }
 
 .navbar {
@@ -118,7 +120,7 @@ header {
 
 
 .random-img {
-    height: 500px;
+    height: 400px;
     background-color: #FFFAF1;
     border-radius: 10%;
 }
@@ -180,7 +182,8 @@ header {
     /* About section  */
 
 #aboutme {
-    background-color: #a8dadc ;
+    background-color: #CDB3E5;
+
     color: #1d3557 ;
     height: 120vh ;
 }
@@ -233,6 +236,9 @@ header {
 
 #skills {
     height: 40vh ;
+    /* background-image: linear-gradient(to right , #CDB3E5, #D4E0E6 ,  #FFF); */
+    background-color: #D7CBF0;
+
 }
 
 .tech {
@@ -252,7 +258,10 @@ header {
 
 #projects {
     height: 30vh;
-    background-color: #a8dadc;
+    background-color: #D7CBF0;
+    /* background-image: linear-gradient(to right , #CDB3E5, #D4E0E6 , #FFF); */
+
+
     color: #000 ;
 }
 
@@ -265,6 +274,7 @@ header {
 
 #contactme {
     height: 100vh ;
+    background-color: #AFC5F0;
 }
 
 #contactme h2 {
@@ -314,9 +324,9 @@ header {
 
 
   .socials .box .text h3 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.8rem;
-    color: #a8dadc;
+    color: #1d3557;
     margin-bottom: 2px;
   }
   .socials .box .text p {
@@ -326,16 +336,17 @@ header {
   }
 
   .fa {
-    color: #fff;
-  }
-  
-  .fa:hover {
     color: #1d3557;
   }
+  
+  /* .fa:hover {
+    color: #1d3557;
+  } */
 
 
   .messageme {
     width: 40vw ;
+    padding-left: 200px;
   }
 
   .form-contact form {
