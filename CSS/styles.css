@@ -257,7 +257,7 @@ header {
     /* Projects sections  */
 
 #projects {
-    height: 30vh;
+    height: 40vh;
     background-color: #D7CBF0;
     /* background-image: linear-gradient(to right , #CDB3E5, #D4E0E6 , #FFF); */
 
@@ -275,26 +275,30 @@ header {
 #contactme {
     height: 100vh ;
     background-color: #AFC5F0;
+    /* padding-left: 6vw ; */
 }
 
 #contactme h2 {
-    margin-top: 70px;
+    padding-top: 70px;
 }
 
 .div-connect {
-    width: 90vw ;
-    margin-left: 5vw ;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    width: 100vw ;
+
 }
 
 .h3-contact {
-    color: #1d3557;
+  color: #1d3557;
   font-size: 30px;
   font-weight: 500;
   margin-left: 60px;
   padding: 10px 0 20px;
+}
+
+.socials {
+    padding-right: 2vw ;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .socials .box {
@@ -303,7 +307,7 @@ header {
     margin-left: 50px;
 }
 
-.socials .box .icon {
+/* .socials .box .icon {
     min-width: 40px;
     padding-top: 4px;
     color: #fff;
@@ -311,6 +315,10 @@ header {
     justify-content: center;
     align-items: flex-start;
     font-size: 24px;
+} */
+
+.socials .box .icon .social-logo {
+    width: 70px;
 }
 
 .socials .box .text {
@@ -335,49 +343,53 @@ header {
     color: #fff;
   }
 
-  .fa {
+  /* .fa {
     color: #1d3557;
   }
   
-  /* .fa:hover {
+  .fa:hover {
     color: #1d3557;
   } */
 
 
   .messageme {
     width: 40vw ;
-    padding-left: 200px;
+    margin-top: 8vh ;
   }
 
   .form-contact form {
 
     display: flex;
     flex-direction: column;
-    line-height: 2;
+    line-height: 1;
   }
   
   .form-contact form h3 {
     color: #1d3557;
     font-size: 30px;
     font-weight: 500;
-    text-align: center;
     padding: 0 0 20px;
   }
   
+  .form-contact form h3 span {
+    color: purple;
+    font-weight: 700;
+  }
 
 
 .form-contact form input,
 .form-contact form textarea {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 20px;
   font-size: 16px;
   border: none;
   outline: none;
   background: white;
   resize: none;
-  color: #1d3557;
+  color: #000;
+  /* border-radius: 8%; */
 }
 
 .form-contact form textarea {
-height: 150px;
+height: 120px;
 }
