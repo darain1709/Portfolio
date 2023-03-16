@@ -1,33 +1,5 @@
 
 
-@media (min-width: 375px) and (max-width: 667px) {
-
-
-    .yash-img {
-        width: 50px;
-    }
-    
-
-    .about-content {
-        width: 90vw ;
-        
-    }
-    
-    .about-text {
-        max-width: 80vw;
-        /* min-height: 70%; */
-        color: #000; 
-    }
-    
-    .about-text h3 {
-        font-size: 1.5rem;
-        padding-bottom: 2.5rem ;
-    }
-    .about-text p {
-        margin-bottom: 1rem;
-    }
-}
-
 
 * {
     margin: 0 ;
@@ -83,6 +55,9 @@ header {
 .nav2 h3 {
     font-weight: 500;
 }
+.nav2 h3:hover {
+    font-weight: 600;
+}
 
 .nav2 ul {
     display: flex;
@@ -106,11 +81,11 @@ header {
 #home {
     background-image: linear-gradient(to right , #FFCBFF, #C1D2DC);
     height: 100vh ;
-    width: 100vw ;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 
@@ -169,13 +144,21 @@ header {
     font-weight: 500;
 }
 
-/* .btn-aboutme:hover {
-    color: #1d3557;
-    border: 1px solid #1d3557;
-    text-decoration: none;
-} */
+.btn-aboutme:hover {
+    font-weight: 800;
+}
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
 
 
+.socials .icon .social-logo {
+    width: 70px;
+    margin-right: 40px;
+}
 
 
 
@@ -249,7 +232,7 @@ header {
 
 .icon {
     font-size: 40px;
-    color: #fff;
+    color: #1d3557;
 }
 
 
@@ -342,58 +325,6 @@ form i {
 }
 
 
-
-
-
-
-.socials {
-    padding-right: 2vw ;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.socials .box {
-    padding: 20px 0;
-    display: flex;
-    margin-left: 50px;
-}
-
-/* .socials .box .icon {
-    min-width: 40px;
-    padding-top: 4px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 24px;
-} */
-
-.socials .box .icon .social-logo {
-    width: 70px;
-}
-
-.socials .box .text {
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 20px;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 300;
-  }
-
-
-  .socials .box .text h3 {
-    font-weight: 500;
-    font-size: 1.8rem;
-    color: #1d3557;
-    margin-bottom: 2px;
-  }
-  .socials .box .text p {
-    font-weight: 300;
-    line-height: 1.5;
-    color: #fff;
-  }
-
   /* .fa {
     color: #1d3557;
   }
@@ -401,3 +332,51 @@ form i {
   .fa:hover {
     color: #1d3557;
   } */
+
+
+  @media screen and (min-width: 375px) and (max-width: 667px) {
+
+
+    #home {
+        flex-wrap: wrap;
+        height: 110vh ;
+    }
+    .mainText {
+        width: 100vw;
+        margin-top: 10px;
+    }
+    .mainText h2 span {
+        font-size: 48px;
+        margin-top: 1em;
+    }
+    .mainText h3 {
+        margin-top: 1vh;
+        font-size: 1em;
+    }
+    .random-img {
+        height: 400px;
+        background-color: transparent;
+    }
+    .yash-img {
+        display: none;
+    }
+    .nav1 h1 {
+        margin-bottom: 5px;
+        margin-top: 0 ;
+    }
+    .nav2 {
+        display: none;
+    }
+
+    
+    .socials {
+        /* margin-top: 20px; */
+    }
+    
+    
+    .socials .icon .social-logo {
+        width: 50px;
+        margin-right: 20px;
+    }
+
+    }
