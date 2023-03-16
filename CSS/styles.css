@@ -183,7 +183,6 @@ header {
 
 #aboutme {
     background-color: #CDB3E5;
-
     color: #1d3557 ;
     min-height: 120vh ;
 }
@@ -290,6 +289,58 @@ header {
     color: #7303a7;
 }
 
+.container {
+    max-width: 1050px;
+    width: 100%;
+    background-color: #FFFAF1;
+    border-radius: 1.5rem;
+    margin: 2rem auto ;
+    box-shadow: 0 5px 10px rgba(0 , 0, 0, 0.15);;
+}
+
+.container .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 2rem ;
+}
+
+.content .img-box {
+    max-width: 60%;
+    margin-left: 3rem;
+}
+.content .img-box img {
+    width: 100%;
+    position: relative;
+}
+
+
+#contactme .container .content form {
+    width: 50%;
+    margin-right: 3rem;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.form-group .field {
+    height: 50px;
+    display: flex;
+    position: relative;
+    margin: 1rem;
+    width: 100%;
+}
+form i {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+}
+
 
 
 
@@ -323,10 +374,10 @@ header {
 
 .socials .box .text {
     display: flex;
+    justify-content: space-evenly;
     margin-left: 20px;
     font-size: 16px;
     color: #fff;
-    flex-direction: column;
     font-weight: 300;
   }
 
