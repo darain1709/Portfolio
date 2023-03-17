@@ -167,7 +167,7 @@ header {
 #aboutme {
     background-color: #CDB3E5;
     color: #1d3557 ;
-    min-height: 120vh ;
+    min-height: 100vh ;
 }
 
 .heading h2 {
@@ -334,32 +334,30 @@ form i {
   } */
 
 
-  @media screen and (min-width: 375px) and (max-width: 667px) {
+  @media screen and (min-width: 390px) and (max-width: 844px) {
 
 
     #home {
         flex-wrap: wrap;
-        height: 110vh ;
+        height: 90vh ;
     }
     .mainText {
         width: 100vw;
-        margin-top: 10px;
     }
     .mainText h2 span {
         font-size: 48px;
         margin-top: 1em;
     }
     .mainText h3 {
-        margin-top: 1vh;
+        margin-top: 3vh;
         font-size: 1em;
     }
     .random-img {
         height: 400px;
         background-color: transparent;
-    }
-    .yash-img {
         display: none;
     }
+
     .nav1 h1 {
         margin-bottom: 5px;
         margin-top: 0 ;
@@ -370,13 +368,45 @@ form i {
 
     
     .socials {
-        /* margin-top: 20px; */
+        margin-top: 20px;
     }
     
     
     .socials .icon .social-logo {
         width: 50px;
         margin-right: 20px;
+    }
+
+
+    /* about me  */
+    #aboutme {
+        min-height: 170vh;
+    }
+    .heading h2 {
+        padding-top: 5vh ;
+        padding-bottom: 5vh ;
+    }
+    .about-text {
+        max-width: 80%;
+    }
+    .about-text h3 {
+        font-size: 1.5rem;
+    }
+    .yash-img {
+        max-width: 350px;
+    }
+
+    /* skills section */
+
+    #skills {
+        height: 30vh;
+    }
+
+    /* Projects section  */
+
+    #projects {
+        height: 30vh;
+        display: none;
     }
 
     }
