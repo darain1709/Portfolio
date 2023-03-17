@@ -21,9 +21,7 @@ header {
     position: fixed;
     z-index: 999;
     margin-bottom: 5vh ;
-    /* background-image: linear-gradient(to right , #AEBAF8 , #9600FF); */
     background-image: linear-gradient(to right , #FFCBFF, #C1D2DC);
-
     color: #1d3557;
     border-bottom: 2px solid #000;
 }
@@ -98,18 +96,20 @@ header {
     height: 400px;
     background-color: #FFFAF1;
     border-radius: 10%;
+    display: none;
 }
 
 
 
 .mainText {
     width: 60vw ;
+    color: #1d3557;
+
 }
 
 .mainText h2 {
     text-align: center;
     font-size: 3rem;
-    color: #FFFAF1;
     font-weight: 500;
     line-height: 1.5em;
 }
@@ -122,7 +122,6 @@ header {
 
 .mainText h3 {
     margin-top: 4vh;
-    color: #FFFAF1;
     font-size: 1.5em;
     font-weight: 700;
     text-align: center;
@@ -255,7 +254,7 @@ header {
     /* Contact me  */
 
 #contactme {
-    min-height: 80vh ;
+    height: 90vh ;
     background-color: #e3c8e3;
 }
 
@@ -273,8 +272,7 @@ header {
 }
 
 .container {
-    max-width: 1050px;
-    width: 100%;
+    width: 70%;
     background-color: #FFFAF1;
     border-radius: 1.5rem;
     margin: 2rem auto ;
@@ -311,17 +309,74 @@ form .form-group {
 }
 .form-group .field {
     height: 50px;
-    display: flex;
     position: relative;
+    display: flex;
     margin: 1rem;
     width: 100%;
 }
+.form-group .message {
+    position: relative;
+    display: flex; 
+    margin: 1rem;
+    width: 100%;
+    height: 50px;
+}
+
 form i {
     position: absolute;
-    top: 50%;
-    left: 20px;
     color: rgb(51, 51, 51);
+    top: 50%;
+    left: 18px;
     font-size: 17px;
+    transform: translateY(-50%);
+    pointer-events: none;
+} 
+
+
+.message i {
+    top: 25px;
+    font: 20px;
+    left: 15px;
+}
+form .message textarea::-webkit-scrollbar {
+    width: 0px;
+}
+
+form .field input , form .message textarea {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 16px 0 48px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(51, 51, 51);
+    background: #D7CBF0;
+}
+
+.field input::placeholder , .message textarea::placeholder {
+    color: rgb(51, 51, 51);
+}
+
+.field input:focus ,
+.message textarea:focus{
+  /* padding-left: 47px; */
+  border: 2px solid rgb(115, 3, 167);
+}
+.field input:focus ~ i ,
+.message textarea:focus ~ i{
+  color: rgb(115, 3, 167);
+}
+
+.button-area {
+    position: relative;
+    margin-left: 10% ;
+}
+
+.button-area i {
+    position: absolute;
+    top: 50%;
+    left: 55px;
 }
 
 
@@ -336,29 +391,10 @@ form i {
 
   @media screen and (min-width: 360px) and (max-width: 740px) {
 
-
-
-    #home {
-        flex-wrap: wrap;
-        height: 90vh ;
+    /* header - navbar */
+    .nav1 {
+        padding: 30px 20px 10px;
     }
-    .mainText {
-        width: 100vw;
-    }
-    .mainText h2 span {
-        font-size: 48px;
-        margin-top: 1em;
-    }
-    .mainText h3 {
-        margin-top: 3vh;
-        font-size: 1em;
-    }
-    .random-img {
-        height: 400px;
-        background-color: transparent;
-        display: none;
-    }
-
     .nav1 h1 {
         margin-bottom: 5px;
         margin-top: 0 ;
@@ -367,26 +403,54 @@ form i {
         display: none;
     }
 
+    /* home page section  */
+
+    #home {
+        flex-wrap: wrap;
+        height: 90vh ;
+    }
+    .random-img {
+        height: 400px;
+        background-color: transparent;
+    }
+    .mainText {
+        width: 100vw;
+        margin-top: 10vh;
+    }
+    .mainText h2 span {
+        font-size: 48px;
+    }
+    .mainText h3 {
+        margin-top: 5vh;
+        font-size: 1em;
+    }
+    
+
     
     .socials {
-        margin-top: 20px;
+        margin-top: 40px;
     }
     
     
     .socials .icon .social-logo {
-        width: 50px;
+        width: 60px;
         margin-right: 20px;
     }
 
 
     /* about me  */
     #aboutme {
-        min-height: 170vh;
+        min-height: 174vh;
     }
     .heading h2 {
-        padding-top: 5vh ;
+        padding-top: 13vh ;
         padding-bottom: 5vh ;
     }
+    .about-content {
+        margin-left: 0;
+        padding-top: 10px;
+    }
+
     .about-text {
         max-width: 80%;
     }
@@ -395,12 +459,13 @@ form i {
     }
     .yash-img {
         max-width: 350px;
+        margin-left: 35px;
     }
 
     /* skills section */
 
     #skills {
-        height: 30vh;
+        height: 40vh;
     }
 
     /* Projects section  */
@@ -409,5 +474,30 @@ form i {
         height: 30vh;
         display: none;
     }
+
+
+    /* contactme section  */
+
+    #contactme {
+        height: 85vh;
+    }
+    #contactme .heading {
+        padding-top: 13vh ;
+        padding-bottom: 5vh ;
+    }
+    
+    .img-box {
+        display: none;
+    }
+    .container {
+        margin: 3rem 0 2rem 3rem;
+    }
+    .container .content {
+        padding: 18px 12px;
+    }
+    #contactme .container .content form {
+        width: 80%;
+        margin-right: 2rem;
+      }
 
     }
