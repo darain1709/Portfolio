@@ -475,6 +475,9 @@ form .field input , form .message textarea {
     #skills {
         height: 40vh;
     }
+    .skills-icon {
+        height: 40px;
+    }
 
     /* Projects section  */
 
