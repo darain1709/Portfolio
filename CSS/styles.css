@@ -220,7 +220,7 @@ header {
     /* Skills section  */
 
 #skills {
-    height: 40vh ;
+    height: 50vh ;
     /* background-image: linear-gradient(to right , #CDB3E5, #D4E0E6 ,  #FFF); */
     /* background-color: #D7CBF0; */
     background-color: #dee2e6;
@@ -239,14 +239,16 @@ header {
     color: #1d3557;
 }
 
+.skills-icon {
+    height: 60px;
+}
+
 
     /* Projects sections  */
 
 #projects {
     height: 40vh;
-    /* background-color: #D7CBF0; */
     background-color: #dee2e6;
-    /* background-image: linear-gradient(to right , #CDB3E5, #D4E0E6 , #FFF); */
 
 
     color: #000 ;
@@ -261,7 +263,6 @@ header {
 
 #contactme {
     height: 90vh ;
-    /* background-color: #e3c8e3; */
     background-color: #dbe9ee;
 }
 
@@ -368,11 +369,11 @@ form .field input , form .message textarea {
 .field input:focus ,
 .message textarea:focus{
   /* padding-left: 47px; */
-  border: 2px solid rgb(115, 3, 167);
+  border: 2px solid #7b0d1e;
 }
 .field input:focus ~ i ,
 .message textarea:focus ~ i{
-  color: rgb(115, 3, 167);
+  color: #7b0d1e;
 }
 
 .button-area {
