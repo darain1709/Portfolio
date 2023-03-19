@@ -23,11 +23,10 @@ header {
     position: fixed;
     z-index: 999;
     margin-bottom: 5vh ;
-    /* background-image: linear-gradient(to right , #FFCBFF, #C1D2DC); */
     background-color: #adb5bd;
     color: #1d3557;
-    border-bottom: 2px solid #000;
-
+    border-bottom: 2px solid rgb(123, 13, 30);
+    box-shadow: 0 0 40px 0 rgba(123, 13, 30, 0.9);
 }
 
 .navbar {
@@ -43,6 +42,7 @@ header {
 }
 
 .nav1 h1 {
+    color: rgb(123, 13, 30);
     text-transform: uppercase;
     margin-top: 5px;
 }
@@ -56,11 +56,14 @@ header {
 
 .nav2 h3 {
     font-weight: 500;
+    transition: 0.3s ease;
 }
 .nav2 h3:hover {
     font-weight: 600;
 }
-
+#project-incomplete:hover{
+    text-decoration: line-through;
+}
 .nav2 ul {
     display: flex;
     justify-content: space-around;
@@ -120,6 +123,7 @@ header {
 }
 
 .mainText h2 span {
+    color: rgb(123, 13, 30);
     font-size: 2em;
     font-weight: 700;
     font-family: 'Josefin Sans', sans-serif;
@@ -149,7 +153,7 @@ header {
 }
 
 .btn-aboutme:hover {
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .socials {
@@ -172,7 +176,7 @@ header {
     /* background-color: #CDB3E5; */
     background-color: #ced4da;
     color: #1d3557 ;
-    min-height: 100vh ;
+    height: 120vh ;
 }
 
 .heading h2 {
@@ -249,6 +253,7 @@ header {
     /* Projects sections  */
 
 #projects {
+    display: none;
     height: 40vh;
     background-color: #dee2e6;
 
@@ -387,7 +392,7 @@ form .button-area {
 
 .button-area button {
     color: #fff;
-    background-color: #7b0d1e;
+    background-color: rgb(123, 13, 30);
     border: none ;
     outline: none ;
     font-size: 1.5rem;
@@ -476,7 +481,7 @@ form .button-area {
 
     /* about me  */
     #aboutme {
-        min-height: 174vh;
+        height: 224vh;
     }
     .heading h2 {
         padding-top: 13vh ;
@@ -518,7 +523,7 @@ form .button-area {
     /* contactme section  */
 
     #contactme {
-        height: 85vh;
+        height: 95vh;
     }
     #contactme .heading {
         padding-top: 13vh ;
@@ -538,5 +543,16 @@ form .button-area {
         width: 80%;
         margin-right: 2rem;
       }
+      .button-area button {
+        font-size: 1rem;
+        padding: 7px 15px;
+      }
 
+      .button-area button i {
+        font-size: 1.1rem;
+
+      }
+      .button-area button:hover i{
+        left: 6px;
+    }
     }
