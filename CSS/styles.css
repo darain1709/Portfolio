@@ -227,8 +227,6 @@ header {
 
 #skills {
     height: 50vh ;
-    /* background-image: linear-gradient(to right , #CDB3E5, #D4E0E6 ,  #FFF); */
-    /* background-color: #D7CBF0; */
     background-color: #dee2e6;
 
 }
@@ -498,6 +496,9 @@ form .button-area {
     .about-text h3 {
         font-size: 1.5rem;
     }
+    .about-text p {
+        font-size: 1.2rem;
+    }
     .yash-img {
         max-width: 350px;
         margin-left: 35px;
@@ -506,10 +507,12 @@ form .button-area {
     /* skills section */
 
     #skills {
-        height: 40vh;
+        height: 50vh;
     }
     .skills-icon {
         height: 40px;
+        margin-right: 40px;
+        padding-top: 20px;
     }
 
     /* Projects section  */
