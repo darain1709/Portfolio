@@ -61,9 +61,7 @@ header {
 .nav2 h3:hover {
     font-weight: 600;
 }
-#project-incomplete:hover{
-    text-decoration: line-through;
-}
+
 .nav2 ul {
     display: flex;
     justify-content: space-around;
@@ -168,24 +166,33 @@ header {
     margin-right: 40px;
 }
 
+ /* Headings of each section  */
 
+.heading {
+    font-size: 2rem;
+    color: #202020;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.heading span {
+    color: #7b0d1e;
+
+}
+.heading i {
+    font-size: 2rem;
+    padding-right: 5px;
+}
 
     /* About section  */
 
 #aboutme {
-    /* background-color: #CDB3E5; */
     background-color: #ced4da;
     color: #1d3557 ;
     height: 120vh ;
 }
 
-.heading h2 {
-    padding-top: 12vh ;
-    text-align: center;
-    font-size: 2rem;
-    color: #1d3557;
-    padding-bottom: 7vh ;
-}    
 
 .about-content {
     width: 90vw ;
@@ -228,14 +235,15 @@ header {
 #skills {
     height: 50vh ;
     background-color: #dee2e6;
-
 }
+
 
 .tech {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 3vh ;
+    padding-top: 13vh ;
+    padding-bottom: 10vh;
 }
 
 .icon {
@@ -251,38 +259,19 @@ header {
     /* Projects sections  */
 
 #projects {
-    display: none;
-    height: 40vh;
+    height: 50vh;
     background-color: #dee2e6;
-
-
     color: #000 ;
 }
-
-.pro-div {
-    text-align: center;
-}
-
 
     /* Contact me  */
 
 #contactme {
-    height: 90vh ;
+    height: 100vh ;
     background-color: #dbe9ee;
 }
 
 
-
-#contactme .heading {
-    font-size: 2.5rem;
-    color: #202020;
-    font-weight: 600;
-    text-align: center;
-    padding-top: 4vh;
-}
-#contactme .heading span {
-    color: #7b0d1e;
-}
 
 .container {
     width: 70%;
@@ -425,14 +414,6 @@ form .button-area {
 }
 
 
-  /* .fa {
-    color: #1d3557;
-  }
-  
-  .fa:hover {
-    color: #1d3557;
-  } */
-
 
   @media screen and (min-width: 360px) and (max-width: 740px) {
 
@@ -484,14 +465,17 @@ form .button-area {
     }
 
 
+    /* heading of all sections */
+
+    .heading {
+        padding-top: 15vh;
+    }
+
     /* about me  */
     #aboutme {
         height: 224vh;
     }
-    .heading h2 {
-        padding-top: 13vh ;
-        padding-bottom: 5vh ;
-    }
+
     .about-content {
         margin-left: 0;
         padding-top: 10px;
@@ -526,7 +510,6 @@ form .button-area {
     /* Projects section  */
 
     #projects {
-        height: 30vh;
         display: none;
     }
 
@@ -536,19 +519,16 @@ form .button-area {
     #contactme {
         height: 100vh;
     }
-    #contactme .heading {
-        padding-top: 13vh ;
-        padding-bottom: 5vh ;
-    }
     
     .img-box {
         display: none;
     }
     .container {
         margin: 0 0 2rem 3rem;
+        margin-top: 6vh;
     }
     .container .content {
-        padding: 18px 12px;
+        padding: 20px 12px;
     }
     #contactme .container .content form {
         width: 80%;
@@ -565,5 +545,8 @@ form .button-area {
       }
       .button-area button:hover i{
         left: 6px;
-    }
+      }
+      form .button-area {
+        margin-top: 10vh;
+      }
     }
