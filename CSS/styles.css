@@ -367,6 +367,11 @@ form .field input , form .message textarea {
     background: #dbe9ee;
 }
 
+form .message textarea {
+    padding: 10px 16px 10px 48px;
+    min-height: 100px;
+}
+
 .field input::placeholder , .message textarea::placeholder {
     color: rgb(51, 51, 51);
 }
@@ -386,6 +391,7 @@ form .button-area {
     float: right;
     flex-direction: row-reverse;
     margin-left: 20px;
+    margin-top: 9vh;
 }
 
 .button-area button {
@@ -454,14 +460,15 @@ form .button-area {
     }
     .mainText {
         width: 100vw;
-        margin-top: 10vh;
+        margin-top: 13vh;
     }
     .mainText h2 span {
-        font-size: 48px;
+        font-size: 44px;
     }
     .mainText h3 {
         margin-top: 5vh;
-        font-size: 1em;
+        font-size: 0.9em;
+        padding-bottom: 10px;
     }
     
 
@@ -507,12 +514,13 @@ form .button-area {
     /* skills section */
 
     #skills {
-        height: 50vh;
+        height: 60vh;
     }
     .skills-icon {
         height: 40px;
-        margin-right: 40px;
+        margin-right: 20px;
         padding-top: 20px;
+        margin-left: 20px;
     }
 
     /* Projects section  */
@@ -526,7 +534,7 @@ form .button-area {
     /* contactme section  */
 
     #contactme {
-        height: 95vh;
+        height: 100vh;
     }
     #contactme .heading {
         padding-top: 13vh ;
@@ -537,7 +545,7 @@ form .button-area {
         display: none;
     }
     .container {
-        margin: 3rem 0 2rem 3rem;
+        margin: 0 0 2rem 3rem;
     }
     .container .content {
         padding: 18px 12px;
