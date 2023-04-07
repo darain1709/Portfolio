@@ -233,7 +233,7 @@ header {
     /* Skills section  */
 
 #skills {
-    height: 50vh ;
+    height: 55vh ;
     background-color: #dee2e6;
 }
 
@@ -259,9 +259,26 @@ header {
     /* Projects sections  */
 
 #projects {
-    height: 50vh;
+    height: 95svh;
     background-color: #dee2e6;
     color: #000 ;
+}
+
+.container-projects {
+    height: 60vh;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 5%;
+    background-color: black;
+}
+
+.netflix-project {
+    color: white;
+    font-size: 40px;
+}
+marquee {
+    height: 60vh;
+    margin-left: 38%;
 }
 
     /* Contact me  */
@@ -507,12 +524,26 @@ form .button-area {
         margin-left: 20px;
     }
 
+    .tech {
+        padding-top: 2vh ;
+        padding-bottom: 30vh;
+    }
+
+
     /* Projects section  */
 
     #projects {
-        display: none;
+        /* display: none; */
     }
 
+
+    .netflix-project {
+        font-size: 20px;
+    }
+
+    marquee {
+        margin-left: 22%;
+    }
 
     /* contactme section  */
 
