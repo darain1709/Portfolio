@@ -185,6 +185,11 @@ header {
     padding-right: 5px;
 }
 
+.heading lord-icon {
+    width: 25px;
+    height: 25px;
+} 
+
     /* About section  */
 
 #aboutme {
@@ -198,6 +203,7 @@ header {
     width: 90vw ;
     height: 80vh;
     margin-left: 5vw ;
+    padding-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -259,6 +265,7 @@ header {
     /* Projects sections  */
 
 #projects {
+    display: none;
     height: 95svh;
     background-color: #dee2e6;
     color: #000 ;
@@ -490,12 +497,12 @@ form .button-area {
 
     /* about me  */
     #aboutme {
-        height: 224vh;
+        height: 210vh;
     }
 
     .about-content {
         margin-left: 0;
-        padding-top: 10px;
+        padding-top: 30px;
     }
 
     .about-text {
@@ -503,12 +510,13 @@ form .button-area {
     }
     .about-text h3 {
         font-size: 1.5rem;
+        padding-bottom: 1.5rem;
     }
     .about-text p {
         font-size: 1.2rem;
     }
     .yash-img {
-        max-width: 350px;
+        max-width: 300px;
         margin-left: 35px;
     }
 
@@ -525,7 +533,7 @@ form .button-area {
     }
 
     .tech {
-        padding-top: 2vh ;
+        padding-top: 3vh ;
         padding-bottom: 30vh;
     }
 
@@ -557,19 +565,32 @@ form .button-area {
     .container {
         margin: 0 0 2rem 3rem;
         margin-top: 6vh;
+        width: 80%;
+        margin-left: 10%;
     }
     .container .content {
-        padding: 20px 12px;
+        padding: 20px 2px;
     }
     #contactme .container .content form {
         width: 80%;
         margin-right: 2rem;
       }
+
+      .form-group .field {
+        margin-left: 30px;
+      }
+      .form-group .message {
+        margin-left: 30px;
+      }
+
       .button-area button {
         font-size: 1rem;
         padding: 7px 15px;
       }
 
+      form .button-area {
+        margin-right: -28px;
+      }
       .button-area button i {
         font-size: 1.1rem;
 
