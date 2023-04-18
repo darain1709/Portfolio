@@ -92,21 +92,6 @@ header {
     flex-wrap: nowrap;
 }
 
-
-.back-img-div {
-    background-color: transparent;
-}
-
-
-.random-img {
-    height: 400px;
-    background-color: #FFFAF1;
-    border-radius: 10%;
-    display: none;
-}
-
-
-
 .mainText {
     width: 60vw ;
     color: #1d3557;
