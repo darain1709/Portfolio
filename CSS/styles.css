@@ -9,9 +9,7 @@
     scroll-behavior: smooth;
 }
 body {
-    /* background-color: #457b9d; */
     background-image: linear-gradient(to right , #FFCBFF, #C1D2DC);
-
     color: #fff;
     font-family: "Poppins", sans-serif;
 }
@@ -25,7 +23,7 @@ header {
     margin-bottom: 5vh ;
     background-color: #adb5bd;
     color: #1d3557;
-    border-bottom: 2px solid rgb(123, 13, 30);
+    /* border-bottom: 2px solid rgb(123, 13, 30); */
     box-shadow: 0 0 40px 0 rgba(123, 13, 30, 0.9);
 }
 
