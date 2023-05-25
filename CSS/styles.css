@@ -178,7 +178,7 @@ header {
 #aboutme {
     background-color: #ced4da;
     color: #1d3557 ;
-    height: 120vh ;
+    height: 130vh;
 }
 
 
@@ -506,7 +506,7 @@ form .button-area {
     /* skills section */
 
     #skills {
-        height: 60vh;
+        height: 50vh;
     }
     .skills-icon {
         height: 40px;
@@ -520,9 +520,11 @@ form .button-area {
         padding-bottom: 30vh;
     }
 
-
     /* Projects section  */
 
+    #projects {
+        /* display: none; */
+    }
 
 
     .netflix-project {
